@@ -1,0 +1,16 @@
+{
+  "name": "sass-first",
+  "version": "0.1.0",
+  "description": "premier projet avec sass",
+  "main": "main.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "compile": "node-sass scss/main.scss dist/css/style.css",
+    "watch": "node-sass scss/main.scss dist/css/style.css -w",
+    "compressed": "node-sass scss/main.scss dist/css/style.css -w --output-style=compressed"
+  },
+  "author": "KELFAOUI Chabane",
+  "license": "MIT"
+}
